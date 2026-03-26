@@ -1,0 +1,139 @@
+
+
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f8f6;
+    margin: 0;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+}
+#price{
+    position: relative;
+    left: 700px;
+    color:#8C5A3C ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 🟢 الكارت */
+.cart-box {
+   width: 40%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px #8C5A3C;
+    position: relative;
+    top: 200px;
+    right: 190px;
+}
+#product{
+    position: relative;
+    left: 10px;
+    text-align: center;
+    color: #8C5A3C;
+}
+#to{
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+    color: #8C5A3C;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+.cart-item:hover{
+    transform:translateY(-3px);
+    box-shadow: 0 8px 20px rgb(0,0,0,0.1);
+}
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.cart-info h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-info p {
+    margin: 5px 0;
+    color:#8C5A3C;
+}
+
+/* 🟢 الفورم */
+.form-box {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #8C5A3C;
+    position: relative;
+    top: 200px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-box button {
+    padding: 12px;
+    border: none;
+    background: #8C5A3C;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    position: relative;
+    left: 170px;
+}
+
+.form-box button:hover {
+    background-color: #3E2C23;
+}
+#talb{
+    position: relative;
+    text-align: center;
+    color: #8C5A3C;
+}
+#checkout-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #C08552;
+    
+}
+.item-right{
+    text-align: right;
+    
+}
+.item-right p{
+    margin: 5px 0;
+    font-weight: bold;
+    
+}
